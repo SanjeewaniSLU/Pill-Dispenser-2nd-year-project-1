@@ -1,4 +1,6 @@
 Pill dispenser
+
+
 Pill dispenser consist of three main parts: controller PCB, dispenser base and dispenser wheel. Dispenser base contains a stepper motor for turning the dispenser wheel, a piezo electric sensor for detecting if a pill is dispensed and an optical sensor for calibrating the wheel position. Dispenser wheel has eight compartments, seven for pills and one for calibration. The wheel has no sensors but has an opening that can detected by the optical sensor of the base to calibrate the wheel position.
 Status of the device can be communicated to the server using a LoRaWAN module. LoRaWAN is a long-range low bandwidth radio network standard for transmitting relatively small amounts of data at a time. LoRaWAN can be setup as a private network of bough as a service from operators.
 
